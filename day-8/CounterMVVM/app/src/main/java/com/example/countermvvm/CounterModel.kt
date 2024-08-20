@@ -1,17 +1,17 @@
 package com.example.countermvvm
 
-data class CounterModel(var count : Int)
+data class CounterModel(var count: Int)
 
-class CounterRepository{
+class CounterRepository {
     private var _counter = CounterModel(0)
 
     fun getCounter() = _counter
 
-    fun incrementCounter() {
+    fun counterIncrement() {
         _counter.count++
     }
 
-    fun decrementCounter() {
+    fun counterDecrement() {
         _counter.count--
     }
 }
