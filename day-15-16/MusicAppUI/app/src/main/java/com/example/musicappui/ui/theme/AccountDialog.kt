@@ -1,4 +1,4 @@
-package com.example.musicappui
+package com.example.musicappui.ui.theme
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
